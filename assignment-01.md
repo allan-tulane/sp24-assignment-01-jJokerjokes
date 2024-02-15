@@ -64,7 +64,7 @@ $$
   - 2b. (6 pts) What does this function do, in your own words?  
 
 .  
-.  It calculate the fibonucci
+.  It computes the nth term of the Fibonacci sequence. It first check if the term to compute is one of the first two terms (0 and 1 by definition). If not, the function uses recursion to sum the two preceding terms until it reaches the base cases. 
 .  
 .  
 .  
