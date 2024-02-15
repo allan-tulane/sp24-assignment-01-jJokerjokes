@@ -64,7 +64,7 @@ $$
   - 2b. (6 pts) What does this function do, in your own words?  
 
 .  
-.  
+.  It calculate the fibonucci
 .  
 .  
 .  
