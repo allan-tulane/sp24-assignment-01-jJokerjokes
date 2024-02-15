@@ -19,7 +19,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 . 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?     
 .  
-.  
+.  No, because $2^{2^n}$ grows much faster than $2^n$. There is no constant factor that can be multiplied by $2^n$ to achieve $2^{2^n}$for large values of $n$.
 .  
 .  
 .  
