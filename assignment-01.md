@@ -25,7 +25,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
   - 1c. Is $n^{1.01} \in O(\mathrm{log}^2 n)$?    
 .  
-.  
+.  No, because polynomial function which grows faster than any poly-logarithmic function
 .  
 .  
 
