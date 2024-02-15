@@ -31,7 +31,7 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 
   - 1d. Is $n^{1.01} \in \Omega(\mathrm{log}^2 n)$?  
 .  
-.  
+.  Yes, as stated in 1c, $n^{1.01}$ grows faster than $O(\mathrm{log}^2 n)$
 .  
 .  
   - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
