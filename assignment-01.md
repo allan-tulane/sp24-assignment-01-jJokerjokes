@@ -36,11 +36,12 @@ In this assignment, you will learn more about asymptotic notation, parallelism, 
 .  
   - 1e. Is $\sqrt{n} \in O((\mathrm{log} n)^3)$?  
 .  
-.  
+.  no, the square root function grows faster that logrithm function as n gets larger.
 .  
 .  
   - 1f. Is $\sqrt{n} \in \Omega((\mathrm{log} n)^3)$?  
-.  
+
+.  Yes, reason stated in 1e
 
 
 2. **SPARC to Python** (12 pts)
