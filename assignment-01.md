@@ -2,7 +2,7 @@
 
 # CMPS 2200 Assignment 1
 
-**Name:**_________________________
+**Name:**_____Charles Zhang____________________
 
 
 In this assignment, you will learn more about asymptotic notation, parallelism, functional languages, and algorithmic cost models. As in the recitation, some of your answer will go here and some will go in `main.py`. You are welcome to edit this `assignment-01.md` file directly, or print and fill in by hand. If you do the latter, please scan to a file `assignment-01.pdf` and push to your github repository. 
@@ -94,7 +94,7 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
   - 3b. (4 pts) What is the Work and Span of this implementation?  
 
 .  
-.  
+.  The work is $O(n)$, the span is $O(1)$
 .  
 .  
 .  
@@ -108,9 +108,9 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
 
   - 3d. (4 pts) What is the Work and Span of this sequential algorithm?  
 .  
+.  The work $W(n) = 2W(n/2) + O(1)$, by the Master Theorem, it is equivalent to $O(n)$
 .  
-.  
-.  
+.  The span $S(n) = S(n/2) +O(1)$, which is equivalent to $O(log n)$
 .  
 .  
 .  
