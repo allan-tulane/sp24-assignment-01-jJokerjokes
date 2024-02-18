@@ -123,9 +123,9 @@ E.g., `longest_run([2,12,12,8,12,12,12,0,12,1], 12) == 3`
   - 3e. (4 pts) Assume that we parallelize in a similar way we did with `sum_list_recursive`. That is, each recursive call spawns a new thread. What is the Work and Span of this algorithm?  
 
 .  
+.  The work is still $O(n)$ as we have to go through all items of the array anyway.
 .  
-.  
-.  
+.  Each level of the recursion tree now incurs additional parallel overhead, which does not change the logarithmic nature of the span. The span is still $O(log n)$
 .  
 .  
 .  
